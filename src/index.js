@@ -26,8 +26,8 @@ function inputHandling() {
         });
       });
   }
-  // console.log(inputData);
-  return;
+  refs.countryList.innerHTML = '';
+  refs.countryInfo.innerHTML = '';
 }
 
 function countryRendering(countriesData) {
